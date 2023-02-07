@@ -10,7 +10,7 @@ app.get('/', function(req, res){
     if(req.query.nombre){
         persona = req.query.nombre;
     }else{
-        persona = "desconcido";
+        persona = "desconocido";
     }
     res.send("<h1>Hola "+persona+"!</h1>");
 });
